@@ -1,0 +1,9 @@
+.container-hero{
+    @include flex-center;
+    .hero{
+        @include width;
+        @include padding;
+        background-color: antiquewhite;
+        height: 150vh;
+    }
+}

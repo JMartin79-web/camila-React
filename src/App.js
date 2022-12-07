@@ -1,9 +1,11 @@
-import Home from "./components/Home"
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
+
 function App() {
   return (
     <>
-    <h1>HOLA</h1>
-    <Home/>
+    <Header/>
+    <HeroSection/>
     </>
   );
 }
