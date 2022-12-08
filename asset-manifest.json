@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/camila/static/css/main.0fd5484c.css",
+    "main.js": "/camila/static/js/main.9cbb3a62.js",
+    "static/js/787.5e9513f9.chunk.js": "/camila/static/js/787.5e9513f9.chunk.js",
+    "index.html": "/camila/index.html",
+    "main.0fd5484c.css.map": "/camila/static/css/main.0fd5484c.css.map",
+    "main.9cbb3a62.js.map": "/camila/static/js/main.9cbb3a62.js.map",
+    "787.5e9513f9.chunk.js.map": "/camila/static/js/787.5e9513f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fd5484c.css",
+    "static/js/main.9cbb3a62.js"
+  ]
+}
