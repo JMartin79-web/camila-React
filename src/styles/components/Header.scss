@@ -1,3 +1,9 @@
+@keyframes linksAnimation {
+    0%{transform: translateY(-1000px);}
+    100%{transform: translateY(0px);}
+}
+
+
 .contain-header{
     @include flex-center;
     flex-direction: column;
@@ -22,6 +28,7 @@
             .header-menu{
                 @include flex-center;
                 overflow: hidden;
+                display: none;
             }
 
             
@@ -30,6 +37,19 @@
     }
     .header-content2{
         display: none;
+        
+        .header-links2{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .header-content2-active{
+        display: block;
+        //transform: translateY(0px);
+        //transition: all 5s ease;
+        animation-name: LinksAnimation;
+        animation-duration: 5s;
+        animation-timing-function: ease;
         .header-links2{
             display: flex;
             flex-direction: column;
@@ -45,13 +65,5 @@
             .header-menu{display: flex;}
         }
     }
-    .header-content2{
-       display: block;
-        .header-links2{
-            display: flex;
-            flex-direction: column;
-        }
-    }
-    
-        
 }}
+

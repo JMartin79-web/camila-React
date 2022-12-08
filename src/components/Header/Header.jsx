@@ -3,13 +3,13 @@ import { Spin as Hamburger } from 'hamburger-react'
 
 function Header() {
   
-  const [burger,setBurger] = useState("")
+  const [content,setContent] = useState("")
   const [isOpen, setOpen] = useState(false)
 
-  function handleBurger(){
-    if(burger === ""){
-      setBurger("-active")
-    }else{setBurger("")}
+  function handleContetn2(){
+    if(content === ""){
+      setContent("-active")
+    }else{setContent("")}
   }
 
   function handleScroll(){
@@ -27,14 +27,14 @@ function Header() {
                 <p>link2</p>
                 <p>link3</p>
           </div>
-          <div className="header-menu" onClick={handleBurger}>
+          <div className="header-menu" onClick={handleContetn2}>
           <Hamburger toggled={isOpen} toggle={setOpen} size={20}/>
           </div>
         </header>
 
       </div>
 
-      <div className='header-content2'>
+      <div className={`header-content2${content}`}>
           <div className='header-links2'>
                 <p>link1</p>
                 <p>link2</p>
